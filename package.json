@@ -1,0 +1,30 @@
+{
+  "name": "jira-forge-app-project",
+  "version": "1.0.0",
+  "description": "jira forge app project",
+  "main": "index.js",
+  "scripts": {
+    "format:check": "prettier --check .",
+    "format": "prettier --check --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viqueen/jira-forge-app-project.git"
+  },
+  "keywords": [
+    "jira",
+    "forge",
+    "app",
+    "project"
+  ],
+  "author": "Hasnae R.",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/viqueen/jira-forge-app-project/issues"
+  },
+  "homepage": "https://github.com/viqueen/jira-forge-app-project#readme",
+  "devDependencies": {
+    "prettier": "^2.8.1",
+    "typescript": "^4.9.4"
+  }
+}
