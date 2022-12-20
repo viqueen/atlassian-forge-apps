@@ -1,7 +1,7 @@
 {
-  "name": "atlassian-forge-app-project",
+  "name": "atlassian-forge-apps",
   "version": "1.0.0",
-  "description": "atlassian forge app project",
+  "description": "atlassian forge apps",
   "scripts": {
     "forge:create": "forge create",
     "format:check": "prettier --check .",
