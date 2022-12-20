@@ -9,12 +9,6 @@
     "allowSyntheticDefaultImports": true,
     "jsx": "react"
   },
-  "include": [
-    "shared",
-    "viqueen-project-page"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist"
-  ]
+  "include": ["shared", "viqueen-project-page"],
+  "exclude": ["node_modules", "dist"]
 }
