@@ -27,6 +27,16 @@ npm install
 npx husky install
 ```
 
+### working with forge
+
+- you will need an email address used for your Atlassian account
+- generate an API token from https://id.atlassian.com/manage-profile/security/api-tokens
+- use them to login
+
+```bash
+npm run forge:login
+```
+
 ### included
 
 - [jira-project-page](./viqueen-project-page/README.md)
