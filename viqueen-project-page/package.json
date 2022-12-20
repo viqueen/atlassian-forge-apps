@@ -1,6 +1,6 @@
 {
   "name": "viqueen-project-page-ui-kit",
-  "version": "1.0.8",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "webpack",
