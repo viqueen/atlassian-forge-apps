@@ -1,8 +1,7 @@
 {
-  "name": "jira-forge-app-project",
+  "name": "atlassian-forge-app-project",
   "version": "1.0.0",
-  "description": "jira forge app project",
-  "main": "index.js",
+  "description": "atlassian forge app project",
   "scripts": {
     "forge:create": "forge create",
     "format:check": "prettier --check .",
@@ -10,20 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/viqueen/jira-forge-app-project.git"
+    "url": "git+https://github.com/viqueen/atlassian-forge-apps.git"
   },
   "keywords": [
-    "jira",
+    "atlassian",
     "forge",
-    "app",
-    "project"
+    "apps"
   ],
   "author": "Hasnae R.",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/viqueen/jira-forge-app-project/issues"
+    "url": "https://github.com/viqueen/atlassian-forge-apps/issues"
   },
-  "homepage": "https://github.com/viqueen/jira-forge-app-project#readme",
+  "homepage": "https://github.com/viqueen/atlassian-forge-apps#readme",
   "devDependencies": {
     "@forge/cli": "^6.3.0",
     "@types/node": "^18.11.17",
