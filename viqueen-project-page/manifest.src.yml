@@ -1,0 +1,10 @@
+modules:
+  jira:projectPage:
+    - key: viqueen-project-page-app
+      title: viqueen-project-page
+      resource: main
+resources:
+  - key: main
+    path: dist
+app:
+  id: ${JIRA_APP_ID}

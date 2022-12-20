@@ -4,16 +4,17 @@
     "target": "es5",
     "noImplicitAny": true,
     "removeComments": true,
-    "outDir": "dist",
-    "rootDir": "src",
     "esModuleInterop": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react"
   },
+  "include": [
+    "shared",
+    "viqueen-project-page"
+  ],
   "exclude": [
     "node_modules",
-    "dist",
-    "coverage",
-    "jest.config.ts",
-    "src/**/*.test.ts"
+    "dist"
   ]
 }
