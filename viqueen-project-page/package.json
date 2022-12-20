@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "webpack",
+    "start": "webpack serve",
     "forge:deploy": "ts-node ../shared/manifest.ts && forge deploy",
     "forge:install": "forge install"
   },

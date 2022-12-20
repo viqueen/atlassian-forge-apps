@@ -14,7 +14,13 @@ npm install
 npm run build
 ```
 
-- Deploy
+- Test static updates locally
+
+```bash
+npm start
+```
+
+- Deploy the app
 
 ```
 npm run forge:deploy
